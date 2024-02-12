@@ -180,6 +180,10 @@ article#main-col{
     width:65%;
 }
 
+article#main-col img{
+    width:800px;
+}
+
 
 /* Services */
 ul#services li{
