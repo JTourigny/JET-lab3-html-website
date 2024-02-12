@@ -22,7 +22,7 @@ header ul{
 
 .button_1{
     height:38px;
-    background:#e8491d;
+    background:#e29538;
     border:0;
     padding-left:20px;
     padding-right:20px;
@@ -32,7 +32,7 @@ header ul{
 
 .dark{
     padding:15px;
-    background:#35424a;
+    background:#302f31;
     color:#ffffff;
     margin-top:10px;
     margin-bottom:10px;
@@ -41,11 +41,11 @@ header ul{
 
 /* Header **/
 header{
-    background:#35424a;
+    background:#302f31;
     color:#ffffff;
     padding-top:30px;
     min-height:70px;
-    border-bottom:#e8491d 3px solid;
+    border-bottom:#e29538 3px solid;
 }
 
 
@@ -81,7 +81,7 @@ header nav{
 
 
 header .highlight, header .current a{
-    color:#e8491d;
+    color:#e29538;
     font-weight:bold;
 }
 
@@ -97,19 +97,24 @@ header a:hover{
     min-height:400px;
     background:url('../img/owcs_banner4.png') no-repeat 0;
     text-align:center;
-    color:#1575be;
+    color:#302f31;
 }
 
 
 #showcase{
-    margin-top:100px;
+    margin-top:50px;
     font-size:55px;
     margin-bottom:10px;
 }
 
+#showcase h1{
+    background-color:#e6e6e6;
+}
 
 #showcase p{
     font-size:20px;
+    background-color:#e6e6e6;
+    color:#302f31;
 }
 
 
@@ -117,7 +122,7 @@ header a:hover{
 #newsletter{
     padding:15px;
     color:#ffffff;
-    background:#35424a;
+    background:#302f31;
 }
 
 
@@ -178,6 +183,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 article#main-col{
     float:left;
     width:65%;
+    font-size:20px;
 }
 
 article#main-col img{
@@ -206,7 +212,7 @@ footer{
     padding:20px;
     margin-top:20px;
     color:#ffffff;
-    background-color:#e8491d;
+    background-color:#e29538;
     text-align: center;
 }
 
